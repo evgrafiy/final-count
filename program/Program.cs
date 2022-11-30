@@ -5,13 +5,13 @@
 // При решение не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 
-Console.Write("Сколько элементов Вы хотите ввести? ");
+Console.Write("Массивы — это круто. Сколько элементов можешь предлжить? ");
 int size = Convert.ToInt32(Console.ReadLine());
 
 string[] arrayStrings = new string[size];
 for (int i = 0; i < size; i++)
 {
-    Console.WriteLine($"Введите {i+1}-й элемент: ");
+    Console.WriteLine($"Покажи {i+1}-й элемент: ");
     string element = Convert.ToString(Console.ReadLine());
     arrayStrings[i] = element;
 }
